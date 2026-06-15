@@ -1,0 +1,895 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1400px;
+    margin: auto;
+    direction: rtl;
+    font-family: Iranian Sans;
+}
+
+#slogan{
+    width: 100%;
+    height: 45px;
+    background-color: #1c352ddb;
+}
+
+#slogan img{
+    height: 100%;
+    width: 250px;
+    margin-right:575px ;
+}
+/* .............slogan................... */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #DDF6D2;
+    color: #1C352D;
+    display: flex;
+}
+
+#nav-div{
+    width: 95%;
+    height: 70px;
+    /* background-color: darkkhaki; */
+    margin: 15px 2.5%;
+    display: flex;
+}
+
+#logo-div {
+    width: 25%;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+#logo-div img{
+    width: 60%;
+    height: 70px;
+    padding-right: 10%;
+}
+
+#top-menu{
+   width: 50%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+}
+#top-menu li {
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+#top-menu li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #1C352D;
+    transition: 0.5s;
+}
+
+#top-menu li a:hover {
+    color: #73946b;
+}
+
+#icons{
+    width: 25%;
+    height: 70px;
+    /* background-color: red; */
+    direction: ltr;
+    position: relative;
+}
+
+#bell{
+    width: 60px;
+    height: 60px;
+    background-color: #fffcfbca;
+    font-size: 30px;
+    color: #1C352D;
+    padding: 13px 15px;
+    border: 1px solid #1C352D;
+    margin:5px 10%;
+    border-radius: 50px;
+}
+
+#question{
+    width: 84%;
+    height: 250px;
+    background-color: #ddf6d2f4;
+    border-radius: 3px;
+    position: absolute;
+    top: 85px;
+    right: 45px;
+    border: 1px solid #b6bac47d;
+    direction: rtl;
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 1000;
+    visibility: hidden;
+}
+
+#bell:hover #question {
+    opacity: 1;
+    visibility: visible;
+}
+
+#questiontxt{
+    font-size: 10px;
+    text-align: justify;
+    color: #1C352D;
+    line-height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    left: 5px;
+}
+
+#branchtxt{
+    font-size: 10px;
+    text-align: justify;
+    color: #1C352D;
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    left: 5px;
+}
+
+#branch{
+    width: 80%;
+    height: 25px;
+    border: none;
+    box-shadow: 1px 1px 5px #b6bac4;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 95px;
+    right: 10px;
+    font-family: Iranian Sans;
+    font-size: 9px;
+    color: #1C352D;
+}
+
+#tabletxt{
+    font-size: 10px;
+    text-align: justify;
+    color: #1C352D;
+    position: absolute;
+    top: 135px;
+    right: 5px;
+    left: 5px;
+}
+
+#table{
+    width: 80%;
+    height: 25px;
+    border: none;
+    box-shadow: 1px 1px 5px #b6bac4;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    right: 10px;
+    font-family: Iranian Sans;
+    font-size: 9px;
+    color: #1C352D;
+}
+
+#table:focus{
+    outline: none;
+}
+
+#questionbtn{
+    width: 90%;
+    height: 30px;
+    background-color: #73946b;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 5%;
+}
+
+#questionbtn a{
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 13px;
+    position: absolute;
+    top: 8px;
+    right: 45%;
+}
+
+#questionbtn:hover{
+    box-shadow: 1px 1px 9px #b6bac4;
+}
+
+/* ........................................nav................................... */
+
+header{
+  width: 100%;
+  height: 600px;
+  background-color: #FFFCFB;
+}
+
+header video{
+    /* width: 100%; */
+    height: 590px;
+    margin-top: 10px;
+    margin-right: 12%;
+    box-shadow: 1px 1px 4px #1C352D;
+}
+
+/* ......................header.................... */
+
+#Mslogan{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFCFB;
+    margin: auto;
+    padding-top: 1px;
+}
+
+#Mslogan p{
+    margin:45px 36%;
+    font-size: 30px;
+    color: #1C352D;
+}
+/* .....................sec1......................... */
+
+#Mname{
+    width: 100%;
+    height: 500px;
+    background-color: #FFFCFB;
+    display: flex;
+}
+
+.MNamePic{
+    width: 30%;
+    height: 440px;
+    background-color: aqua;
+    margin-right: 2.3%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px #b6bac4;
+
+}
+
+.MNamePic img{
+   width: 100%;
+   height: 440px;
+}
+
+.MNametxt{
+    width: 30%;
+    height: 440px;
+    background-color: #73946b;
+    margin-right: 2.3%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px #b6bac4;
+}
+
+.MNametxt p{
+    width: 85%;
+    color: #FFFCFB;
+    font-size: 17px;
+    text-align: justify;
+    margin: 50px 7.5%;
+    line-height: 35px;
+}
+
+/* .............sec2.......why we choose this name?.................... */
+
+#WhyUs{
+    width: 100%;
+    height: 240px;
+    background-color: #fffcfb;
+
+}
+
+#WhyUstxt{
+    width: 100%;
+    height: 80px;
+    /* background-color: chartreuse; */
+    position: relative;
+}
+
+#WhyUstxt p{
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 25px;
+    color: #1C352D;
+
+}
+
+#WhyUstxt p span{
+    color: #b6bac4;
+}
+
+#WhyUsLine{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    background-color: #b6bac4;
+    height: 2px;
+    width: 75%;
+}
+
+#WhyUsicons{
+    width: 100%;
+    height: 160px;
+    /* background-color:darkmagenta; */
+    display: flex;
+}
+
+.WhyUsicon{
+    width: 150px;
+    height: 150px;
+    background-color: #73946ba5;
+    box-shadow: 1px 1px 5px #b6bac4;
+    margin: 5px 3%;
+    border-radius: 35px;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.WhyUsicon:hover{
+    box-shadow: 1px 1px 8px #1C352D;
+    transform: scale(1.05);
+}
+
+.WhyUsUP{
+    width: 100%;
+    height: 100px;
+    /* background-color: lightpink; */
+}
+
+/* .details{
+    width: 100%;
+    height: 0%;
+    background-color: #DDF6D2;
+    border-radius: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 0.5s;
+    opacity: 0;
+} */
+
+/* #p{
+    font-size: 9.5px;
+    color: #1C352D;
+    text-align: justify;
+    padding: 35px 16px 0 16px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+.WhyUsicon:hover .details{
+    opacity: 1;
+    height: 100%;
+}
+.WhyUsicon:hover #p{
+    opacity: 1;
+    height: 100%;
+} */
+
+#WhyUsUPi1{
+    position: absolute;
+    top:15px;
+    right: 38px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan1{
+    position: absolute;
+    top:70%;
+    right: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+ #WhyUsUPi2{
+    position: absolute;
+    top:15px;
+    right: 42px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan2{
+    position: absolute;
+    top:70%;
+    right: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+#WhyUsUPi3{
+    position: absolute;
+    top:15px;
+    right: 42px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan3{
+    position: absolute;
+    top:70%;
+    right: 31px;
+    color: white;
+    font-size: 17px;
+}
+
+#WhyUsUPi4{
+    position: absolute;
+    top:15px;
+    right: 40px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan4{
+    position: absolute;
+    top:70%;
+    right: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+#WhyUsUPi5{
+    position: absolute;
+    top:15px;
+    right: 41px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan5{
+    position: absolute;
+    top:70%;
+    right: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+#WhyUsUPi6{
+    position: absolute;
+    top:15px;
+    right: 42px;
+    color: white;
+    font-size: 65px;
+}
+
+#WhyUsSpan6{
+    position: absolute;
+    top:70%;
+    right: 32px;
+    color: white;
+    font-size: 17px;
+}
+
+/* ........sec3.......why you should choose us?............. */
+
+#WhyUsPic{
+    width: 100%;
+    height: 300px;
+    background-color: #fffcfb;
+    display: flex;
+}
+
+.RPic{
+    width: 40%;
+    height: 250px;
+    background-color: #DDF6D2;
+    position: relative;
+    margin: 25px 10%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #b6bac4;
+}
+
+.RPic img{
+    height: 190px;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+
+.RPic span{
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    font-size: 16px;
+    color: #1C352D;
+}
+
+.RPic p{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    font-size: 13px;
+    color: #44444E;
+    line-height: 23px;
+}
+
+.btn{
+    position: absolute;
+    right: 5%;
+    bottom: 17%;
+    background-color: #73946b;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 45px;
+   font-family: Iranian Sans;
+   padding: 10px 17px;
+   font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #fffcfb;
+    color: #73946b;
+    border: 1px solid #73946b;
+}
+
+.LPic{
+     width: 40%;
+    height: 250px;
+    background-color: #DDF6D2;
+    position: relative;
+    margin: 25px 10%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #b6bac4;
+}
+
+.LPic img{
+    height: 165px;
+    width: 42%;
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+}
+
+.LPic span{
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    font-size: 16px;
+    color: #1C352D;
+}
+
+.LPic p{
+    position: absolute;
+    top: 26%;
+    right: 5%;
+    font-size: 13px;
+    color: #44444E;
+    line-height: 23px;
+}
+/* ....sec4.......talking about drinks and postry............. */
+
+#TopFan{
+    width: 100%;
+    height: 400px;
+    background-color: #fffcfb;
+
+}
+
+#TopFantxt{
+    width: 100%;
+    height: 80px;
+    /* background-color: chartreuse; */
+    position: relative;
+}
+
+#TopFantxt p{
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 25px;
+    color: #1C352D;
+
+}
+
+#TopFantxt p span{
+    color: #b6bac4;
+}
+
+#TopFanLine{
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    background-color: #b6bac4;
+    height: 2px;
+    width: 65%;
+}
+
+   
+#TopFanCover{
+    width: 95%;
+    height: 300px;
+    background-color: #ddf6d29c;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px #b6bac4;
+}
+
+.TopFanFoodtxt{
+    width: 27%;
+    height: 200px;
+    background-color: #b6bac47d;
+    margin: 75px 4%;
+    border-radius: 4px;
+    position: relative;
+}
+
+#french{
+    width: 57%;
+    height: 125px;
+    position: absolute;
+    top: -55px;
+    right: 65px;
+    transition: 1s;
+}
+
+#french:hover{
+    transform: scale(1.1);
+}
+#frenchtxt{
+    font-size: 18px;
+    position: absolute;
+    top: 39%;
+    right: 37%;
+    color: #1C352D;
+}
+#frenchp{
+    font-size: 12px;
+    color: #1C352D;
+    position: absolute;
+    top: 52%;
+    right: 9%;
+}
+
+#coconut{
+    width: 55%;
+    height: 115px;
+    position: absolute;
+    top: -50px;
+    right: 65px;
+    transition: 1s;
+}
+#coconut:hover{
+    transform: scale(1.1);
+}
+#coconuttxt{
+    font-size: 18px;
+    position: absolute;
+    top: 37%;
+    right: 35%;
+    color: #1C352D;
+}
+#coconutp{
+    font-size: 12px;
+    color: #1C352D;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
+
+#chicken{
+    width: 45%;
+    height: 115px;
+    position: absolute;
+    top: -55px;
+    right: 27.5%;
+    transition: 1s;
+}
+#chicken:hover{
+    transform: scale(1.1);
+}
+#chickentxt{
+    font-size: 18px;
+    position: absolute;
+    top: 37%;
+    right: 27.5%;
+    color: #1C352D;
+}
+#chickenp{
+    font-size: 11px;
+    color: #1C352D;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+
+.TopFanFoodbtn{
+   position: absolute;
+    right: 29%;
+    bottom: 11%;
+    background-color: #fffcfb;
+    color: #1C352D;
+    text-decoration: none;
+    border-radius: 45px;
+    border: 0.25px solid #44444E;
+   font-family: Iranian Sans;
+   padding: 10px 17px;
+   font-size: 15px;
+}
+
+.TopFanFoodbtn:hover{
+    box-shadow: 1px 1px 4px #44444E;
+}
+
+/* ....sec5..........top fan foods........... */
+#sec6{
+    width: 100%;
+    height: 280px;
+    background-color: #fffcfb;
+    padding-top: 1px;
+}
+
+#sec6line{
+    width: 95%;
+    background-color: #b6bac4;
+    height: 2px;
+    margin: 30px 2.5% 30px 2.5%;
+}
+
+#sec6div{
+    width: 60%;
+    height: 180px;
+    margin: auto;
+    /* background-color: teal; */
+    display: flex;
+    position: relative;
+}
+
+#Seccofeecup{
+    width: 10%;
+    height: 180px;
+    box-shadow: 1px 1px 5px #44444E;
+    border-radius: 55px;
+    background-color: #b6bac47d;
+    position: absolute;
+    right: 20%;
+}
+
+#Seccofeecup span:nth-of-type(1){
+  font-size: 70px;
+  color: #b6bac47d;
+  position: absolute;
+  top: 7%;
+  left: 112%;
+  font-family: LeagueSpartanB;
+}
+
+#Seccofeecup span:nth-of-type(2){
+  font-size: 70px;
+  color: #b6bac47d;
+  position: absolute;
+  top: 54%;
+  left: 112%;
+  font-family: LeagueSpartanB;
+}
+
+#Seccofeecup img{
+    width: 100%;
+    height: 85px;
+    padding-top: 10px;
+    position: absolute;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+}
+
+#Seccofeecup img:hover{
+   transform: translateY(85px);
+}
+
+#sec6div p{
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    font-size: 22px;
+    color: #1C352D;
+}
+
+/* ......sec6.......coffee cup............ */
+
+#footer-img {
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #DDF6D2;
+}
+
+#UpFooter-div{
+    width: 50%;
+    height: 140px;
+    /* background-color: yellow; */
+    margin-right: 350px;
+}
+
+#UpFooter-div img{
+    width: 30%;
+    height: 100px;
+    margin-right: 270px;
+}
+
+#UpFooter-div p{
+    width: 50%;
+    margin-right: 240px;
+    font-size: 16px;
+    color: #1C352D;
+}
+
+#footerline{
+    width: 50%;
+    height: 2px;
+    background-color: #b6bac4;
+     margin-right: 350px;
+}
+
+#midfooter{
+   width: 50%;
+    height: 45px;
+    /* background-color: steelblue; */
+    display: flex;
+    margin-right: 350px;
+}
+#midfooter li {
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+#midfooter li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #1C352D;
+    transition-duration: 0.5s;
+}
+
+#midfooter li a:hover{
+    color: #73946b;
+}
+
+#downfooter{
+    width: 50%;
+    height: 100px;
+    /* background-color: tomato; */
+    margin-right: 350px;
+    display: flex;
+}
+
+.footericonCover{
+    width: 10%;
+    height: 70px;
+    background-color: #b6bac47d;
+    margin-right: 12%;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.footericonCover a i:hover{
+    transition: 0.5s;
+    color: #1C352D;
+}
+
+.footericonCover a{
+    font-size: 35px;
+    color: #FFFCFB;
+    margin: 15px 17px;
+    display: block;
+}
+
+#copyright{
+    font-size: 11px;
+    color: #7d818c;
+    font-style: italic;
+    margin-right: 550px;
+}
